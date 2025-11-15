@@ -1,0 +1,159 @@
+.ai-panel {
+  min-height: 400px;
+}
+
+.ai-metric {
+  margin-bottom: 16px;
+}
+
+.ai-metric label {
+  display: block;
+  font-weight: 600;
+  color: #4a4a4a;
+  margin-bottom: 4px;
+}
+
+.metric-box, .pattern-box {
+  padding: 10px;
+  background: #ececec;
+  border-radius: 6px;
+  margin-top: 4px;
+  font-size: 16px;
+  color: #2a2a2a;
+}
+
+.ai-pattern-legend {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.ai-pattern-legend h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #4a4a4a;
+}
+
+.ai-pattern-legend ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.ai-pattern-legend li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+.ai-training-panel {
+  margin-top: 10px;
+}
+
+.training-description {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 8px;
+}
+
+.training-placeholder {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.training-section {
+  margin-top: 12px;
+}
+
+.training-section h3 {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+}
+
+.training-chart {
+  display: flex;
+  align-items: flex-end;
+  gap: 3px;
+  height: 120px;
+  padding: 6px;
+  background: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+.training-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.training-bar {
+  width: 6px;
+  background: #6366f1;
+  border-radius: 4px 4px 0 0;
+}
+
+.training-bar-label {
+  font-size: 0.65rem;
+  color: #9ca3af;
+  margin-top: 2px;
+}
+
+.training-caption {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin-top: 6px;
+}
+
+.training-feature-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.feature-item {
+  display: grid;
+  grid-template-columns: 1.5fr 3fr 0.5fr;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+}
+
+.feature-label {
+  color: #4b5563;
+}
+
+.feature-bar-outer {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.feature-bar-inner {
+  height: 100%;
+  border-radius: 999px;
+}
+
+.feature-cluster {
+  background: #ef4444;
+}
+
+.feature-temp {
+  background: #f97316;
+}
+
+.feature-dryness {
+  background: #eab308;
+}
+
+.feature-humidity {
+  background: #22c55e;
+}
+
+.feature-value {
+  text-align: right;
+  font-size: 0.8rem;
+  color: #6b7280;
+}

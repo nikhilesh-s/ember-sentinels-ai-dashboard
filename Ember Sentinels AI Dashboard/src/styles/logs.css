@@ -1,0 +1,83 @@
+.logs-box {
+  height: 200px;
+  overflow-y: auto;
+  background: #f8f8f8;
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.logs-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.logs-box::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 4px;
+}
+
+.logs-box::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+.logs-box::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.log-entry {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-family: 'Courier New', monospace;
+  color: #2a2a2a;
+  line-height: 1.4;
+}
+
+.logs-box p {
+  color: #888;
+  font-style: italic;
+}
+
+.report-panel {
+  margin-top: 10px;
+}
+
+.report-description {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+
+.report-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.report-button {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: opacity 0.2s;
+}
+
+.report-button.primary {
+  background: #2563eb;
+  color: white;
+}
+
+.report-button.secondary {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.report-button:hover {
+  opacity: 0.9;
+}
+
+.report-note {
+  font-size: 0.8rem;
+  color: #9ca3af;
+}

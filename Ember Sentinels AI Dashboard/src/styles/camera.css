@@ -1,0 +1,36 @@
+.camera-select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+.camera-select:focus {
+  outline: 2px solid #4a90e2;
+  border-color: #4a90e2;
+}
+
+.fake-camera {
+  height: 200px;
+  background: #222;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.fake-camera p {
+  margin: 4px 0;
+}
+
+.camera-caption {
+  font-size: 12px;
+  opacity: 0.7;
+}

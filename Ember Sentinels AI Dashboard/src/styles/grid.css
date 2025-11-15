@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 2px;
+}
+
+.grid-cell {
+  aspect-ratio: 1;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.grid-cell:hover {
+  opacity: 0.7;
+}
+
+.active-cell {
+  outline: 3px solid #ff7f50;
+  outline-offset: -1px;
+}
+
+.risk-0 { background: #d0ffd0; }
+.risk-1 { background: #eaff91; }
+.risk-2 { background: #ffd966; }
+.risk-3 { background: #ff8c42; }
+.risk-4 { background: #ff4d4d; }

@@ -1,0 +1,16 @@
+.heatmap {
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  gap: 1px;
+}
+
+.heatmap-cell {
+  aspect-ratio: 1;
+  border-radius: 2px;
+}
+
+.risk-0 { background: #d6fcd6; }
+.risk-1 { background: #f7fcb0; }
+.risk-2 { background: #fecf71; }
+.risk-3 { background: #fb8d3c; }
+.risk-4 { background: #e31a1c; }
